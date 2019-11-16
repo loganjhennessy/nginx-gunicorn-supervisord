@@ -1,0 +1,85 @@
+2019-11-16 07:40:39,694 INFO Set uid to user 0 succeeded
+2019-11-16 07:40:39,698 INFO supervisord started with pid 1
+2019-11-16 07:40:40,672 INFO spawned: 'nginx' with pid 10
+2019-11-16 07:40:40,676 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 07:40:42,091 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 07:40:42,093 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 07:43:37,427 WARN received SIGTERM indicating exit request
+2019-11-16 07:43:37,430 INFO waiting for nginx, gunicorn to die
+2019-11-16 07:43:37,554 INFO stopped: gunicorn (exit status 0)
+2019-11-16 07:43:37,668 INFO stopped: nginx (exit status 0)
+2019-11-16 07:43:42,559 INFO Set uid to user 0 succeeded
+2019-11-16 07:43:42,563 INFO supervisord started with pid 1
+2019-11-16 07:43:43,569 INFO spawned: 'nginx' with pid 9
+2019-11-16 07:43:43,573 INFO spawned: 'gunicorn' with pid 10
+2019-11-16 07:43:43,582 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 07:43:44,883 INFO spawned: 'nginx' with pid 21
+2019-11-16 07:43:44,885 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 07:43:44,896 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 07:43:46,902 INFO spawned: 'nginx' with pid 22
+2019-11-16 07:43:46,914 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 07:43:49,927 INFO spawned: 'nginx' with pid 23
+2019-11-16 07:43:49,938 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 07:43:50,945 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2019-11-16 16:02:47,401 INFO Set uid to user 0 succeeded
+2019-11-16 16:02:47,406 INFO supervisord started with pid 1
+2019-11-16 16:02:48,414 INFO spawned: 'nginx' with pid 10
+2019-11-16 16:02:48,422 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 16:02:49,770 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:02:49,771 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:13:43,175 WARN received SIGTERM indicating exit request
+2019-11-16 16:13:43,176 INFO waiting for nginx, gunicorn to die
+2019-11-16 16:13:43,301 INFO stopped: gunicorn (exit status 0)
+2019-11-16 16:13:43,402 INFO stopped: nginx (exit status 0)
+2019-11-16 16:13:48,090 INFO Set uid to user 0 succeeded
+2019-11-16 16:13:48,094 INFO supervisord started with pid 1
+2019-11-16 16:13:49,097 INFO spawned: 'nginx' with pid 10
+2019-11-16 16:13:49,099 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 16:13:50,590 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:13:50,590 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:14:23,453 WARN received SIGTERM indicating exit request
+2019-11-16 16:14:23,454 INFO waiting for nginx, gunicorn to die
+2019-11-16 16:14:23,591 INFO stopped: gunicorn (exit status 0)
+2019-11-16 16:14:23,718 INFO stopped: nginx (exit status 0)
+2019-11-16 16:14:35,265 INFO Set uid to user 0 succeeded
+2019-11-16 16:14:35,269 INFO supervisord started with pid 1
+2019-11-16 16:14:36,273 INFO spawned: 'nginx' with pid 10
+2019-11-16 16:14:36,277 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 16:14:36,286 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 16:14:37,613 INFO spawned: 'nginx' with pid 22
+2019-11-16 16:14:37,615 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:14:37,626 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 16:14:39,631 INFO spawned: 'nginx' with pid 23
+2019-11-16 16:14:39,643 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 16:14:42,651 INFO spawned: 'nginx' with pid 24
+2019-11-16 16:14:42,663 INFO exited: nginx (exit status 1; not expected)
+2019-11-16 16:14:42,664 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2019-11-16 16:15:07,774 WARN received SIGTERM indicating exit request
+2019-11-16 16:15:07,777 INFO waiting for gunicorn to die
+2019-11-16 16:15:08,025 INFO stopped: gunicorn (exit status 0)
+2019-11-16 16:15:18,940 INFO Set uid to user 0 succeeded
+2019-11-16 16:15:18,944 INFO supervisord started with pid 1
+2019-11-16 16:15:19,948 INFO spawned: 'nginx' with pid 10
+2019-11-16 16:15:19,951 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 16:15:21,279 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:15:21,281 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:18:36,917 WARN received SIGTERM indicating exit request
+2019-11-16 16:18:36,918 INFO waiting for nginx, gunicorn to die
+2019-11-16 16:18:37,046 INFO stopped: gunicorn (exit status 0)
+2019-11-16 16:18:37,157 INFO stopped: nginx (exit status 0)
+2019-11-16 16:18:48,162 INFO Set uid to user 0 succeeded
+2019-11-16 16:18:48,166 INFO supervisord started with pid 1
+2019-11-16 16:18:49,169 INFO spawned: 'nginx' with pid 10
+2019-11-16 16:18:49,172 INFO spawned: 'gunicorn' with pid 11
+2019-11-16 16:18:50,606 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:18:50,607 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:22:01,393 INFO Set uid to user 0 succeeded
+2019-11-16 16:22:01,399 INFO supervisord started with pid 1
+2019-11-16 16:22:02,402 INFO spawned: 'nginx' with pid 8
+2019-11-16 16:22:02,405 INFO spawned: 'gunicorn' with pid 9
+2019-11-16 16:22:03,837 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:22:03,839 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-16 16:28:58,817 WARN received SIGTERM indicating exit request
+2019-11-16 16:28:58,819 INFO waiting for nginx, gunicorn to die
+2019-11-16 16:28:58,950 INFO stopped: gunicorn (exit status 0)
+2019-11-16 16:28:59,030 INFO stopped: nginx (exit status 0)

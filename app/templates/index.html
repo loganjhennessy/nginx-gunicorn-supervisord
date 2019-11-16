@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<main role="main" class="inner cover">
+    <h1 class="cover-heading">The Human Log</h1>
+    <p class="lead">
+        {% if logged_in %}
+        <a class="btn btn-lg btn-secondary" href="/logout">Logout</a>
+        {% else %}
+        <a class="btn btn-lg btn-secondary" href="/login">Login</a>
+        {% endif %}
+    </p>
+</main>
+<!--     <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    The Human Log
+                </h1>
+                <h2 class="subtitle">
+                    {% if logged_in %}
+                    <a class="button" href="/logout">Logout</a>
+                    {% else %}
+                    <a class="button" href="/login">Login</a>
+                    {% endif %}
+                </h2>
+            </div>
+        </div> -->
+<!--         <div class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        {% if logged_in %}
+                        <li><a href="/logout">Logout</a></li>
+                        {% else %}
+                        <li><a href="/login">Login</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </nav>
+        </div> -->
+    <!-- </section> -->
+{% endblock %}

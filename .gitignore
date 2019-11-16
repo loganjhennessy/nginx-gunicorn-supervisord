@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Secrets
+*secrets.env
+
+# VIM
+*.swp
+
+# Personal
+reference/
